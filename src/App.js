@@ -36,7 +36,7 @@ function App() {  //함수형 컴포넌트. 클래스형은 extends 키워드 �
     elWinner.classList.add('winner')
     status = 'Winner: ' + winner
   } else {
-    elWinner.classList.remove('winner')
+    // elWinner.classList.remove('winner')
     status = `Next player: ${xIsNext ? 'X' : 'O'}`
   }
 
